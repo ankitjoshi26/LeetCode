@@ -2,7 +2,7 @@
 
 package LeetCode;
 
-public class leetcode1095 {
+public class leetcode_Q1095 {
     public static void main(String[] args) {
         System.out.println();
         int[] arr = {1,2,3,4,5,3,1};
