@@ -8,7 +8,7 @@ public class leetcode_Q441 {
     static int arrangeCoins(int n){
        long start = 1;
        long end = n;   
-        
+       
         while (start <= end) {
             long mid = start + (end - start) / 2;
             long coins = mid * (mid + 1) / 2;
