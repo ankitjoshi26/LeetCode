@@ -6,10 +6,10 @@ public class leetcode_Q33 {
     public static void main(String[] args) {
         System.out.println();
         int[] arr = {3,4,5,6,7,0,1,2};
-        System.out.println(findPivot(arr));
+        System.out.println(search(arr,0));
     }
     static int search (int[] nums, int target){
-        int pivot = findPivot(nums);
+    int pivot = findPivot(nums);
 
     if(pivot == -1){ // array not rotated
         return binarySearch(nums, target, 0, nums.length - 1);
@@ -25,7 +25,7 @@ public class leetcode_Q33 {
         return binarySearch(nums, target, pivot + 1, nums.length - 1);
     }
     }
-    static int binarySearch(int[] arr,int target, int start, int end){
+    static int binarySearch(int[] arr,int target, int start, int end){  
         while(start <= end){
             int mid = start + (end - start) / 2;
 
@@ -40,7 +40,7 @@ public class leetcode_Q33 {
         }
         return -1;
     }
-    static int findPivot(int[] arr){
+    static int findPivot(int[] arr){     
         int start = 0;
         int end = arr.length - 1;
         while(start <= end){
@@ -59,6 +59,5 @@ public class leetcode_Q33 {
             }
         } 
         return -1;
-    }
-    
+    }   
 }
