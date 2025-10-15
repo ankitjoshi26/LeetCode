@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-the-duplicate-number/description/
+
 package LeetCode;
 
 public class leetcode_Q287 {
