@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class aggresiveCows {
     public static void main(String[] args) {
         int[] stalls = {1,2,8,4,9};
-        int noOfCows = 3;  // no of cows
+        int noOfCows = 4;  // no of cows
         System.out.println(corrDistance(stalls,noOfCows));
     }
     static int corrDistance(int[] stalls, int noOfCows){
