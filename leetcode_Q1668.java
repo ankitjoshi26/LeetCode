@@ -8,7 +8,7 @@ public class leetcode_Q1668 {
     }
     static int maxRepeatingSubstring(String str, String word){
     int count=0;
-    String temp=word;
+    String temp = word;
     while(str.contains(temp)){
         count++;
         temp+=word;
