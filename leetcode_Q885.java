@@ -2,7 +2,7 @@
 
 package LeetCode;
 
-public class leetcode_Q885 {
+public class Leetcode_Q885 {
     public static void main(String[] args) {
         int rows = 4;
         int cols = 4;
