@@ -26,7 +26,7 @@ public class leetcode_Q17 {
     static ArrayList<String> mobilePadRet(String p,String up){
         if(up.isEmpty()){
             ArrayList<String> list = new ArrayList<>();
-            list.add(p);f
+            list.add(p);
             return list;
         }
 
